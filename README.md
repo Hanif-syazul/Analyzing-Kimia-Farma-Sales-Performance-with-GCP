@@ -7,7 +7,10 @@
 This project is the final project of the Kimia Farma Big Data Analytics Project-based Internship, hosted by Rakamin. The aim is to conduct a comprehensive performance analysis of Kimia Farma's sales from 2020 to 2023, using Google BigQuery for data querying and Looker Studio for data visualization.
 
 ### Problem statement
-The Big Data Analytics Intern at Kimia Farma needs to gain a deeper experience in their field by solving challenges. One of it's main challenge is to evaluate the Kimia Farma Business Performance in between 2020 and 2023. By the process of querying it's datasets in Bigquery, creating performance Dashboard in Looker Studio, and giving our own presentation of how we are solving these challenges.
+As Big Data Analytics Interns, we were tasked with evaluating Kimia Farma's business performance with a transaction or sales history over a 3 years period. This involved:
+- Executing queries to create an analysis table or data mart in Bigquery.
+- Developing a performance dashboard in Looker Studio.
+- Presenting our findings to demonstrate our skills and analytical capabilities.
 
 ### Objectives
 The primary objectives of this project include:

@@ -1,19 +1,23 @@
-# Final Task Assignment: Kimia Farma Big Data Analytics Project-Based Internship, Provided by the Rakamin Academy. (May 2024)
+# Analyzing Kimia Farma Sales Performance in Bigquery 
+## This is the final project of Rakamin Kimia Farma Big Data Analytics Project-based Internship
 
-## Overview: Kimia Farma Performance Analysis on (2020-2023)
-This Performance Analysis is intended to be the final task assignment of a Rakamin Project-Based Internship: Kimia Farma Big Data Analytics (May 2024).
-This final task assignment would scope around importing an important tables, creating an analysis table or a data mart, designing an outstanding dashboard, and a representation of the journey we took and how we complete this Big Data Analytics final task assignment. Thanks to the Rakamin Academy and the Kimia Farma for providing us, the candidates, to get immersed and involved in this beautiful and excellence journey of getting our way into specializing our skills in Big Data Analytics. 
+### Description
+We will create a Performance Analysis on Kimia Farma Sales between 2020 and 2023. Our goal is to get involved in all of the 4 challenges required to complete this final task assignment. We wil be using BigQuery and Looker Studio by Google to query and visualise the provided datasets. This final task assignment would scope around importing an important tables, creating an analysis table or a data mart, designing an outstanding dashboard, and a representation of the journey we took and how we complete this Big Data Analytics final task assignment. 
 
-## Description
-We will create a Performance Analysis on Kimia Farma Sales between 2020 and 2023. Our goal is to get involved in all of the 4 challenges required to complete this final task assignment. We wil be using BigQuery and Looker Studio by Google to query and visualise the provided datasets.
+### Datasets used in this analysis
+The datasets are self-explanotary. In which they contain the transaction history between 2020 and 2023, an inventory of product stocks, the branchs location across Indonesia, and all the products detailed information.
+- kf_final_transaction
+- kf_inventory
+- kf_kantor_cabang
+- kf_product
 
-## Background
+### Problem statement
+The Big Data Analytics Intern at Kimia Farma needs to gain a deeper experience in their field by solving challenges. One of it's main challenge is to evaluate the Kimia Farma Business Performance in between 2020 and 2023. By the process of querying it's datasets in Bigquery, creating performance Dashboard in Looker Studio, and giving our own presentation of how we are solving these challenges.
 
-## Datasets used in this analysis
+### About the Rakamin Project-based Internship
+The Rakamin Project-based Internship is the Kominfo Official Internship Partner in giving the candidates an experience of studying a real case industry and a mentoring sessions. 
 
-## Problem statement
-
-## About Kimia Farma Pharmacy
+Thanks to the Rakamin Academy and the Kimia Farma for providing this beautiful and excellence journey of getting our way into specializing the skills of a Big Data Analyst. 
 
 
 

@@ -1,4 +1,5 @@
 # Analyzing Kimia Farma Sales Performance in Bigquery 
+[![Join us in Rakamin!](https://shields.io/badges/Rakamin-Program-green)](https://www.rakamin.com/virtual-internship-experience)
 ## This is the final project of Kimia Farma Big Data Analytics Project-based Internship program by Rakamin.
 
 ### Description

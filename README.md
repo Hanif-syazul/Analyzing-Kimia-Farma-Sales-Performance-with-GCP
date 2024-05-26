@@ -15,6 +15,8 @@ The datasets are self-explanotary:
 ### Problem statement
 The Big Data Analytics Intern at Kimia Farma needs to gain a deeper experience in their field by solving challenges. One of it's main challenge is to evaluate the Kimia Farma Business Performance in between 2020 and 2023. By the process of querying it's datasets in Bigquery, creating performance Dashboard in Looker Studio, and giving our own presentation of how we are solving these challenges.
 
+---
+
 ### About the Rakamin Project-based Internship
 The Rakamin Project-based Internship is the Kominfo Official Internship Partner in giving the candidates an experience of studying a real case industry and a mentoring sessions. 
 

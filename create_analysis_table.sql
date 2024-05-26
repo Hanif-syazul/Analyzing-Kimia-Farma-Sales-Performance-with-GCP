@@ -1,10 +1,11 @@
 /* INTRODUCTORY
-This is the Rakamin Kimia Farma final task of creating a performance 
-dashboard of Kimia Farma from 2020 - 2023
+This is SQL Script contains the process of querying or creating the analysis table in Challenge of Creating 
+the Kimia Farma Business Performance Analysis.
+Author: Hanif Sya Zul
 */
 
 /*
-Improve tables efficiency by adding Primary key and Foreign key
+First, we have to improve tables efficiency by adding their Primary key and Foreign key
 */
 
 -- Adding Primary key
@@ -26,7 +27,7 @@ ALTER TABLE `rakamin-kf-analytics-423804.kimia_farma.kf_final_transaction`
 
 
 /*
-Create analysis table with columns were based on Rakamin Kimia Farma final task PDF.
+And the main query, create analysis table with columns were based on Rakamin Kimia Farma final task PDF.
 */
 
 CREATE TABLE kimia_farma.analysis_table AS
@@ -49,9 +50,9 @@ SELECT
     WHEN ft.price > 100000 AND ft.price <= 300000 THEN 20
     WHEN ft.price > 300000 AND ft.price <= 500000 THEN 25
     WHEN ft.price > 500000 THEN 30
-  END AS persentase_gross_laba,
-  (ft.price - (ft.price * ft.discount_percentage / 100)) AS nett_sales,
-  SUM(ft.price) OVER (PARTITION BY date ORDER BY EXTRACT(DAY FROM date)) AS nett_profit,
+  END AS persentase_gross_laba, -- Labeling each price ranges in percentages
+  (ft.price - (ft.price * ft.discount_percentage / 100)) AS nett_sales, -- This calculate the real price after discount
+  SUM(ft.price) OVER (PARTITION BY date ORDER BY EXTRACT(DAY FROM date)) AS nett_profit, -- The sum of price of every day profit
   ft.rating AS rating_transaksi 
 FROM 
   `rakamin-kf-analytics-423804.kimia_farma.kf_final_transaction` AS ft
@@ -65,7 +66,7 @@ ORDER BY
   ft.date DESC
 ;
 
--- Specify the analysis_table Primary key and Foreign key
+-- Lastly, specify the analysis_table Primary key and Foreign key
 ALTER TABLE `rakamin-kf-analytics-423804.kimia_farma.analysis_table`
   ADD PRIMARY KEY(transaction_id) NOT ENFORCED,
   ADD FOREIGN KEY(branch_id) REFERENCES `rakamin-kf-analytics-423804.kimia_farma.kf_kantor_cabang`(branch_id) NOT ENFORCED,

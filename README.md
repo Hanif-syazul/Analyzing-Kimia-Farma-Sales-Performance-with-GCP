@@ -1,5 +1,7 @@
-# Analyzing Kimia Farma Sales Performance in Bigquery
+# Analyzing Kimia Farma Sales Performance with GCP (Google Cloud Platform)
 [![Join us in Rakamin!](https://img.shields.io/badge/Rakamin-program-green)](https://www.rakamin.com/virtual-internship-experience)
+[![Looker badge](https://img.shields.io/badge/GCP-Looker_studio-blue)](https://lookerstudio.google.com/)
+[![Bigquery badge](https://img.shields.io/badge/GCP-Bigquery-blue)](https://console.cloud.google.com/bigquery)
 ## This is the final project of Kimia Farma Big Data Analytics Project-based Internship program by Rakamin.
 
 ### Description

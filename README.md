@@ -6,7 +6,7 @@
 We will create a Performance Analysis on Kimia Farma Sales between 2020 and 2023. Our goal is to get involved in all of the 4 challenges required to complete this final task assignment. We wil be using BigQuery and Looker Studio by Google to query and visualise the provided datasets. This final task assignment would scope around importing an important tables, creating an analysis table or a data mart, designing an outstanding dashboard, and a representation of the journey we took and how we complete this Big Data Analytics final task assignment. 
 
 ### Datasets used in this analysis
-The datasets are self-explanotary. In which they contain the transaction history between 2020 and 2023, an inventory of product stocks, the branchs location across Indonesia, and all the products detailed information.
+The datasets are self-explanotary:
 - kf_final_transaction
 - kf_inventory
 - kf_kantor_cabang

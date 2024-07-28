@@ -1,5 +1,5 @@
 /* INTRODUCTORY
-This is SQL Script contains the process of querying or creating the analysis table in Challenge of Creating 
+This very special SQL Script contains the process of querying or creating the analysis table in Challenge of Creating 
 the Kimia Farma Business Performance Analysis.
 Author: Hanif Sya Zul
 */
